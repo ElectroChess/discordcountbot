@@ -130,4 +130,4 @@ dmypy.json
 
 #Packaging and Heroku Files
 Procfile
-requirements.txt
+*.txt
