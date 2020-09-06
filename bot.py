@@ -1,8 +1,9 @@
 import discord
 from discord.ext import commands
 import asyncio
+import os
 bot = commands.Bot(command_prefix='c.')
-token = 'NzUyMjA4OTUyMDQ0ODE0NDg2.X1UTLQ.XzVG4aUU0ik6MSbP5xLj784pQLw'
+token = os.getenv('token')
 
 @bot.event 
 async def on_ready():
