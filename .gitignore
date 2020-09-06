@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#Packaging and Heroku Files
+Procfile
+requirements.txt
